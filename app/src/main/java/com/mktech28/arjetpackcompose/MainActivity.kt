@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
+import com.mktech28.arjetpackcompose.ui.bottom_nav.BottomNavigationFun
 import com.mktech28.arjetpackcompose.ui.login_signup.LoginScreen
 import com.mktech28.arjetpackcompose.ui.theme.ARJetpackComposeTheme
 
@@ -22,6 +23,9 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MyApp() {
-   LoginScreen()
+
+    BottomNavigationFun()
+
+//   LoginScreen()
 }
 
